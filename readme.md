@@ -52,8 +52,8 @@ Este projeto utiliza o PostgreSQL. Para configurar o banco de dados:
 
 ```xml
 <property name="javax.persistence.jdbc.url" value="jdbc:postgresql://localhost:5432/bdinfo"/>
-<property name="javax.persistence.jdbc.user" value="bruno"/>
-<property name="javax.persistence.jdbc.password" value=""/>
+<property name="javax.persistence.jdbc.user" value="SeuUsuarioAqui"/>
+<property name="javax.persistence.jdbc.password" value="SuaSenhaAqui"/>
 ```
 
 ### 3. Configuração do Flyway
@@ -71,8 +71,8 @@ Flyway é utilizado para gerenciar a versão do banco de dados e aplicar as migr
     <version>9.16.0</version>
     <configuration>
         <url>jdbc:postgresql://localhost:5432/bdinfo</url>
-        <user>bruno</user>
-        <password></password>
+        <user>SeuUsuarioAqui</user>
+        <password>SuaSenhaAqui</password>
     </configuration>
 </plugin>
 ```
